@@ -37,7 +37,7 @@ this.setState({todos: this.state.todos.filter(todo=> todo.id !=id)})
         <h1> ToDoList</h1>
         <form onSubmit= {this.handleClick}>
           <input type="text" name="task" />
-          <button>Add Task To The List</button>
+          <button>Add Task</button>
         </form>
         <ul>
         {this.state.todos.map (
