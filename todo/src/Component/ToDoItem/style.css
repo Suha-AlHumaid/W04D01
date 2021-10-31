@@ -1,0 +1,5 @@
+.todoItem span {
+color: tomato;
+cursor: pointer;
+font-weight: bold;
+}
